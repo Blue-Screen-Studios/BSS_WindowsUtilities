@@ -5,7 +5,11 @@ using System.Text;
 
 namespace BSS_WindowsUtilities
 {
-    class Explorer
+    /// <summary>
+    /// File Explorer not yet implemented...
+    /// </summary>
+    public static class Explorer
     {
+        //Not yet implemented
     }
 }

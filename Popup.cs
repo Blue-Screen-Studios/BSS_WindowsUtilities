@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Runtime.InteropServices;
+using UnityEngine;
 
 namespace BSS_WindowsUtilities
 {
@@ -91,6 +92,7 @@ namespace BSS_WindowsUtilities
             catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
+                Debug.LogException(ex);
                 return -1;
             }
         }
