@@ -42,9 +42,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clipboard.cs" />
-    <Compile Include="Explorer.cs" />
-    <Compile Include="Popup.cs" />
+    <Compile Include="src\Clipboard.cs" />
+    <Compile Include="src\Explorer.cs" />
+    <Compile Include="src\Popup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
